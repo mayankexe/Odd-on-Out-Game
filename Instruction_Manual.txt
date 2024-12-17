@@ -1,0 +1,33 @@
+Instruction Manual
+"A_Tkinter_BasicCode" is the game source code.
+For using the scoreboard feature too please run the program from "mysql python" from IDLE.
+When running the code for first time on a computer decomment the following lines :
+
+#mycon.execute("CREATE DATABASE scoreboard")
+#mycon.execute("CREATE TABLE highscore(name VARCHAR(30), score smallint)")
+
+When running the code anytime else please do ensure that the above lines commented out.
+
+
+Keep all files and Images in the same folder with no partition within the folder to avoid directory error.
+
+Due to changing resolution from device to device the picture might be distorted.
+For best experience, do not maximise the window and keep it in it's original dimension (630 x 630 px).
+
+Please do enter your database and other mysql details in the file "mysql python" here:
+
+db=mysql.connector.connect(
+    host=<hostname>,
+    user=<username>,
+    passwd=<password>,
+    database=<database name>
+    )
+
+Picture references:
+- Megaman (from Megaman Franchise)
+- Sans (from Undertale)
+- Pikachu (from Pokemon Franchise)
+- Mario (from Super Mario Fanchise)
+- Kirby (from Kirby franchise)
+- Link (from Legend of Zelda franchise)
+- Raiden (from Mortal Kombat franchise)
